@@ -16,7 +16,7 @@ export default class block {
 		this.pos = pos;
 		this.vel = {
 			x: 0,
-			y: -Math.random() * 5 - 3, // Random number between -3 and -8
+			y: -Math.random() * 5 - 3, // Random number between -3 and -8 (VELOCITY(GRAVITY(SPEED)))
 		};
 	}
 	get color() {
